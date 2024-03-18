@@ -1,0 +1,7 @@
+--library hxnodejs
+--library sure
+--class-path hx/src
+--class-path hx/test
+--main browserifyJsTest.BrowserifyTest
+--js ./js/test/browserifyJsTest/BrowserifyTest.js
+--cmd node ./js/test/browserifyJsTest/BrowserifyTest

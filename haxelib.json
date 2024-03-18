@@ -1,0 +1,19 @@
+{
+    "name": "browserify-js",
+    "license": "MIT",
+    "tags": [
+        "browserify-js",
+        "browserifyJs"
+    ],
+    "description": "Libraries with externs for browserify.js api",
+    "contributors": [
+        "Anatoly-Starodubstev"
+    ],
+    "releasenote": "See https://github.com/mnemesong/haxe-browserify-js/blob/main/README.md",
+    "version": "0.0.1",
+    "url": "https://github.com/mnemesong/haxe-browserify-js",
+    "classPath": "hx/src",
+    "dependencies": {
+        "hxnodejs": ""
+    }
+}
