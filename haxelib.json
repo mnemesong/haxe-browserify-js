@@ -3,7 +3,9 @@
     "license": "MIT",
     "tags": [
         "browserify-js",
-        "browserifyJs"
+        "browserifyJs",
+        "browserify",
+        "javascript"
     ],
     "description": "Libraries with externs for browserify.js api",
     "contributors": [
