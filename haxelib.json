@@ -12,7 +12,7 @@
         "Anatoly-Starodubstev"
     ],
     "releasenote": "See https://github.com/mnemesong/haxe-browserify-js/blob/main/README.md",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "url": "https://github.com/mnemesong/haxe-browserify-js",
     "classPath": "hx/src",
     "dependencies": {
