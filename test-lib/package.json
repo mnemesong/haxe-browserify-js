@@ -1,0 +1,24 @@
+{
+  "name": "test-lib",
+  "version": "1.0.0",
+  "description": "Libraries with externs for browserify.js api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnemesong/haxe-browserify-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnemesong/haxe-browserify-js/issues"
+  },
+  "homepage": "https://github.com/mnemesong/haxe-browserify-js#readme",
+  "dependencies": {
+    "@types/browserify": "^12.0.40",
+    "browserify": "^17.0.0"
+  }
+}
