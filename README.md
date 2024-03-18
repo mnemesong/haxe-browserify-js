@@ -6,6 +6,22 @@ Libraries with externs for browserify.js api
 See browserify repository and native browserify api at (https://github.com/browserify/browserify)[Github]
 
 
+## Required
+- only js target
+- installed node.js 7+
+- haxe dependency `hxnodejs`
+
+
+## Installation
+1. install haxelib package `haxelib install browserify-js`
+2. init node package and add browserify as dependency `npm i browserify`
+3. add dependency in your build config.hxml: 
+```
+--library hxnodejs 
+--library browserify-js
+```
+
+
 ## Example of usage
 For example we have in root directory file two linked js files:
 ```javascript
