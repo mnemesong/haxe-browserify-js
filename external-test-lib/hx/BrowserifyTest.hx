@@ -1,7 +1,7 @@
 package;
 
+import js.node.Fs;
 import js.Syntax;
-import js.node.Module;
 import js.node.Path;
 import browserifyJs.Browserify;
 
@@ -20,6 +20,7 @@ class BrowserifyTest {
 			trace( str );
 			Sure.sure( str.indexOf( 'console.log("This is test file!");' ) != -1 );
 			Sure.sure( str.indexOf( 'const printGreeting = () => {' ) != -1 );
+			Fs.writeFileSync( Path.resolve( Syntax.code( "module.path" ), "..", "out.js" ), src );
 			trace( "success!" );
 			return str;
 		} );

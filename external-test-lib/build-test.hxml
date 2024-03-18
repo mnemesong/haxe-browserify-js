@@ -5,3 +5,4 @@
 --main BrowserifyTest
 --js ./js/BrowserifyTest.js
 --cmd node ./js/BrowserifyTest
+--cmd node ./out.js

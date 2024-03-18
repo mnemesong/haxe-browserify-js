@@ -25,7 +25,8 @@ BrowserifyTest.main = function() {
 		if(str.indexOf("const printGreeting = () => {") == -1) {
 			throw haxe_Exception.thrown("FAIL: str.indexOf('const printGreeting = () => {') != -1");
 		}
-		console.log("hx/BrowserifyTest.hx:23:","success!");
+		js_node_Fs.writeFileSync(js_node_Path.resolve(module.path,"..","out.js"),src);
+		console.log("hx/BrowserifyTest.hx:24:","success!");
 		return str;
 	});
 };
@@ -376,6 +377,7 @@ js_Boot.__string_rec = function(o,s) {
 		return String(o);
 	}
 };
+var js_node_Fs = require("fs");
 var js_node_KeyValue = {};
 js_node_KeyValue.get_key = function(this1) {
 	return this1[0];
@@ -392,17 +394,6 @@ js_node_stream_WritableNewOptionsAdapter.from = function(options) {
 		}});
 	}
 	return options;
-};
-var js_node_url_URLSearchParamsEntry = {};
-js_node_url_URLSearchParamsEntry._new = function(name,value) {
-	var this1 = [name,value];
-	return this1;
-};
-js_node_url_URLSearchParamsEntry.get_name = function(this1) {
-	return this1[0];
-};
-js_node_url_URLSearchParamsEntry.get_value = function(this1) {
-	return this1[1];
 };
 String.__name__ = true;
 Array.__name__ = true;
